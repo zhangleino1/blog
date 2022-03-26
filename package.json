@@ -1,15 +1,14 @@
 {
-  "name": "lovepython",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "blog",
   "main": "index.js",
-  "repository": "https://github.com/zhangleino1/blog.git",
+  "repository": "git@github.com:zhangleino1/blog.git",
   "author": "zzzhanglei <851106500@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.5"
+    "vuepress": "^2.0.0-beta.36"
   },
-  "scripts": {
+ "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   }
